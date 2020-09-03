@@ -1,2 +1,2 @@
 # Calculadora-de-IMC-
-Aplicativo que calcula IMC para Android na linguagem Kotlin
+Aplicativo Android que calcula IMC escrito na linguagem Kotlin
