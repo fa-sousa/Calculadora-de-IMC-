@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_calculadora.*
+import kotlinx.android.synthetic.main.activity_resultado.*
 
 class CalculadoraActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,9 +26,11 @@ class CalculadoraActivity : AppCompatActivity() {
                     val resultado = peso / (altura * altura)
                     return resultado
                 }
-                val mIntent = Intent(this,ResultadoActivity::class.java )
+                val mIntent = Intent(this, ResultadoActivity::class.java )
+                mIntent.putExtra("INTENT_RESULTADO", txvResultadoValor)
                 startActivity(mIntent)
                 finish()
+
             }
         }
     }

@@ -15,21 +15,20 @@
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/txvResultadoValor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txvResultadoValor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="29,4"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/txvResultadoTexto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,10 +46,9 @@
         app:srcCompat="@drawable/logo_calculadora" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txvResultadoTexto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cuidado, você está acima do peso ideal. Busque ajuda profissional !"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -58,6 +56,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/txvResultadoValor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
